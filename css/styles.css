@@ -2380,9 +2380,16 @@ flex-direction: column;
 
 .ca-image{
 	height: 10em;
+	width: 40%;
+	margin: auto auto;
+	border-radius: 8px;
 }
 
 .ca-image img{
 	height: 100%;
 	width: 100%;
+}
+
+#challenge{
+	padding-top: 0px;
 }
