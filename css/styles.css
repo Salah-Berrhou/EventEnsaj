@@ -2304,8 +2304,10 @@ flex-direction: column;
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.logo{
-	font-family: 'Lobster', cursive;
+#logo{
+	font-family: 'Lobster';
+	font-weight: 400;
+	color: #ffbd50;
 }
 
 .banner img{
@@ -2353,4 +2355,15 @@ flex-direction: column;
 
 #download_title{
 	margin-bottom: 1em;
+}
+
+.nav-item{
+	display: flex;
+	justify-content: center;
+}
+
+.nav-link{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
 }
