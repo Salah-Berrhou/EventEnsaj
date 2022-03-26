@@ -1783,9 +1783,7 @@ a:hover.back-to-top {
 /* Min-width width 992px */
 @media (min-width: 992px) {
 	
-	.img_logo{
-		display: hidden;
-	}
+	
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
@@ -2492,4 +2490,12 @@ body{
 	right: 0.25rem;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23333333'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
+}
+
+#concept_page{
+	padding: 1em;
+}
+
+.footer{
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/ttttt.jpg) center center no-repeat;
 }
